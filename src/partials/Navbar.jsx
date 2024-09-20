@@ -17,8 +17,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="nav-center mt-2 px-4  h-12    ">
-            <select className="search-dropdown">
+          <div className="nav-center mt-2 px-4  h-16    ">
+            <select  defaultValue="All" className="search-dropdown !w-24 text-2xl">
               <option>All</option>
               <option>All Departments</option>
               <option>Arts &amp; Crafts</option>
@@ -26,11 +26,11 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search Delhi Book Store"
-              className="search-box w-full    "
+              className="search-box w-full  text-3xl   "
             />
-            <div className="search-icon flex justify-center items-center text-center my-auto h-full ">
+            <div className="search-icon flex justify-center items-center text-center my-auto h-full w-16">
               <i
-                className="fa-solid fa-magnifying-glass my-auto items-center flex justify-center"
+                className=" text-3xl w-full fa-solid fa-magnifying-glass my-auto items-center flex justify-center"
                 style={{ color: "#28416c" }}
               ></i>
             </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="nav-options text-xl">
+      <div className="nav-options text-xl h-16 ">
         <div className="all-logo">
           <i className="fa-solid fa-bars" />
           <p className="list">All</p>
