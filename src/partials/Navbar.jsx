@@ -3,11 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <header>
-      <nav className=" h-full lg:min-h-20 min-h-24 w-full ">
+      <nav className=" h-full lg:min-h-20 min-h-16 w-full ">
         <div className=" w-full flex my-auto gap-3 justify-start items-start text-start py-4 ">
           <div className="nav-left flex flex-col gap-3 lg:flex-row">
             <div className="nav-logo">
-              <img className=" !w-36  " src="/delhiBookStore-logo.png" />
+              <img className=" !w-36 lg:!w-24  " src="/delhiBookStore-logo.png" />
             </div>
             <div className="location lg:flex hidden">
               <p className="top-text">Deliver to</p>
@@ -17,8 +17,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="nav-center mt-2 px-4  h-16    ">
-            <select  defaultValue="All" className="search-dropdown !w-24 text-2xl">
+          <div className="nav-center mt-2 px-4  h-16  lg:h-10   ">
+            <select  defaultValue="All" className="search-dropdown !w-24 text-2xl lg:text-lg">
               <option>All</option>
               <option>All Departments</option>
               <option>Arts &amp; Crafts</option>
@@ -26,11 +26,11 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search Delhi Book Store"
-              className="search-box w-full  text-3xl   "
+              className="search-box w-full  text-2xl  lg:text-xl  "
             />
             <div className="search-icon flex justify-center items-center text-center my-auto h-full w-16">
               <i
-                className=" text-3xl w-full fa-solid fa-magnifying-glass my-auto items-center flex justify-center"
+                className=" text-3xl lg:text-xl w-full fa-solid fa-magnifying-glass my-auto items-center flex justify-center"
                 style={{ color: "#28416c" }}
               ></i>
             </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="nav-options text-xl h-16 ">
+      <div className="nav-options text-xl lg:text-lg h-16 lg:h-10 ">
         <div className="all-logo">
           <i className="fa-solid fa-bars" />
           <p className="list">All</p>
