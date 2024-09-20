@@ -28,7 +28,7 @@ const HomePage = () => {
           Hot Off the press | Children books
         </h3>
 
-        <div className=" relative  py-4 px-12 w-full  ">
+        <div className=" relative   py-4 px-12 w-full   ">
           <Swiper
             modules={[Navigation]}
             spaceBetween={10}
@@ -70,7 +70,7 @@ const HomePage = () => {
       <div className=" flex flex-col py-4 ">
         <h3 className=" font-bold text-2xl">Anticipated books of 2024</h3>
 
-        <div className=" relative  py-4 px-12 w-full  ">
+        <div className=" relative   py-4 px-12 w-full   ">
           <Swiper
             modules={[Navigation]}
             spaceBetween={10}
@@ -111,7 +111,7 @@ const HomePage = () => {
         <h3 className=" font-bold text-2xl">2024 Booker Prize shortlist</h3>
 
         <div className=" relative overflow-auto lg:overflow-hidden   py-4 px-12 w-full  ">
-          <div className=" overflow-autos flex justify-between ">
+          <div className=" overflow-autos flex justify-between gap-3 ">
             {itemsData.slice(0, 6).map((item, index) => (
               <ItemCard key={index} image={item.imageUrl} title={item.title} />
             ))}
@@ -175,7 +175,7 @@ const HomePage = () => {
           Barack Obama's 2024 reading list
         </h3>
 
-        <div className=" relative  py-4 px-12 w-full  ">
+        <div className=" relative   py-4 px-12 w-full   ">
           <Swiper
             modules={[Navigation]}
             spaceBetween={10}

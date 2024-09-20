@@ -16,7 +16,7 @@ const Footer = () => {
           <a>DBS Devices</a>
           <a>DBS Science</a>
         </ul>
-        <ul>
+        <ul className=" lg:block hidden">
           <p>Make Money with Us</p>
           <a>Sell products on DBS</a>
           <a>Sell on DBS Business</a>
@@ -33,7 +33,7 @@ const Footer = () => {
           <a>Reload Your Balance</a>
           <a>DBS Currency Converter</a>
         </ul>
-        <ul>
+        <ul className=" lg:block hidden">
           <p>Let Us Help You</p>
           <a>DBS and COVID-19</a>
           <a>Your Account</a>

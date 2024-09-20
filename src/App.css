@@ -436,6 +436,12 @@ main {
     width: 7vw;
   }
 
+  @media screen and (max-width: 900px) {
+    .nav-logo img {
+      width: 10vw;
+    }
+  }
+
   .nav-center {
     height: 4vw;
   }
