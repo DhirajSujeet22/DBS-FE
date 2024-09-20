@@ -121,7 +121,7 @@ const HomePage = () => {
 
       <div className=" flex flex-col bg-[#EAEAEA] px-4 py-3 ">
         <div className="bg-[#FCBA03] py-3 px-4 flex flex-col gap-3">
-          <h3 className="text-lg font-semibold">Shop by genre</h3>
+          <h3 className="text-lg lg:text-xl font-semibold">Shop by genre</h3>
           <div className="grid grid-cols-12 gap-4">
             {genre.map((genreItem, index) => (
               <div key={index} className="w-full col-span-3 lg:col-span-2">
@@ -135,8 +135,8 @@ const HomePage = () => {
           </div>
         </div>
         <div className="bg-[#088657] py-3 flex flex-col gap-3">
-          <h3 className="text-lg font-semibold text-white pl-4">
-            Shop by genre
+          <h3 className="text-lg lg:text-xl font-semibold text-white pl-4">
+          Books for all Academic needs
           </h3>
 
           <div className=" px-2">
