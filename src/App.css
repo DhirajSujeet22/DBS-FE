@@ -14,7 +14,7 @@ nav {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #3e4e50;
+  background-color: #131921;
   color: white;
 }
 
@@ -58,7 +58,7 @@ nav {
 }
 
 .nav-center:hover {
-  outline: 2px solid rgb(232, 176, 73);
+  /* outline: 2px solid rgb(232, 176, 73); */
 }
 
 .search-dropdown {
@@ -181,7 +181,7 @@ nav {
   height: 42px;
   display: flex;
   align-items: center;
-  background-color: #3d5962;
+  background-color: #232F3E;
   color: white;
   justify-content: start;
 }
@@ -342,14 +342,14 @@ main {
   font-size: 0.5rem;
   font-weight: bold;
   color: white;
-  background-color: #3d5962;
+  background-color: #232F3E;
 }
 
 .footer-links {
   height: 400px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #3e4e50;
+  background-color: #131921;
   color: white;
 }
 
@@ -378,7 +378,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3e4e50;
+  background-color: #131921;
   color: white;
   border-top: 0.5px solid #84868878;
 }

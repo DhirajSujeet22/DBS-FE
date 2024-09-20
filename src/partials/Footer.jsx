@@ -9,40 +9,40 @@ const Footer = () => {
       <div className="footer-links pb-4 !h-full ">
         <ul className="  ">
           <p>Get to Know Us</p>
-          <a className=" font-medium  lg:font-normal !text-base">Careers</a>
-          <a className=" font-medium  lg:font-normal !text-base">Blog</a>
-          <a className=" font-medium  lg:font-normal !text-base">About DBS</a>
-          <a className=" font-medium  lg:font-normal !text-base">Investor Relations</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Careers</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Blog</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">About DBS</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Investor Relations</a>
         </ul>
         <ul className=" lg:block hidden">
           <p>Make Money with Us</p>
-          <a className=" font-medium  lg:font-normal !text-base">Sell products on DBS</a>
-          <a className=" font-medium  lg:font-normal !text-base">Sell on DBS Business</a>
-          <a className=" font-medium  lg:font-normal !text-base">Sell apps on DBS</a>
-          <a className=" font-medium  lg:font-normal !text-base">Become an Affiliate</a>
-          <a className=" font-medium  lg:font-normal !text-base">Self-Publish with Us</a>
-          <a className=" font-medium  lg:font-normal !text-base">Host an DBS Hub</a>
-          <a className=" font-medium  lg:font-normal !text-base">›See More Make Money with Us</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Sell products on DBS</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Sell on DBS Business</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Sell apps on DBS</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Become an Affiliate</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Self-Publish with Us</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Host an DBS Hub</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">›See More Make Money with Us</a>
         </ul>
         <ul>
           <p>DBS Payment Products</p>
-          <a className=" font-medium  lg:font-normal !text-base">DBS Business Card</a>
-          <a className=" font-medium  lg:font-normal !text-base">Shop with Points</a>
-          <a className=" font-medium  lg:font-normal !text-base">Reload Your Balance</a>
-          <a className=" font-medium  lg:font-normal !text-base">DBS Currency Converter</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">DBS Business Card</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Shop with Points</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Reload Your Balance</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">DBS Currency Converter</a>
         </ul>
         <ul className=" lg:block hidden">
           <p>Let Us Help You</p>
-          <a className=" font-medium  lg:font-normal !text-base">DBS and COVID-19</a>
-          <a className=" font-medium  lg:font-normal !text-base">Your Account</a>
-          <a className=" font-medium  lg:font-normal !text-base">Your Orders</a>
-          <a className=" font-medium  lg:font-normal !text-base">Shipping Rates &amp; Policies</a>
-          <a className=" font-medium  lg:font-normal !text-base">Returns &amp; Replacements</a>
-          <a className=" font-medium  lg:font-normal !text-base">
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">DBS and COVID-19</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Your Account</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Your Orders</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Shipping Rates &amp; Policies</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Returns &amp; Replacements</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">
             Manage Your Content and Devices
           </a>
-          <a className=" font-medium  lg:font-normal !text-base">DBS Assistant</a>
-          <a className=" font-medium  lg:font-normal !text-base">Help</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">DBS Assistant</a>
+          <a className=" font-medium  lg:font-normal !text-base lg:!text-xs">Help</a>
         </ul>
       </div>
       <div className="country-info h-full py-4 flex justify-around items-center mx-auto ">
@@ -61,7 +61,7 @@ const Footer = () => {
           </select>
         </div>
       </div>
-      <div className="policies text-xl lg:text-base h-full py-4">
+      <div className="policies text-xl lg:text-xs h-full py-4">
         <div className="pages">
           <a href="">Conditions of Use</a>
           <a href="">Privacy Notice</a>
